@@ -4,7 +4,7 @@
 
 This project is a website inspired from [LaRetrouvade.com](https://www.retrouvade.com/fr/), redesigned by [UI/UX designer Wendy Tan](https://www.behance.net/wendytan7). La Retrouvade is a French Bed and Breakfast located in the Ardèche that offers an authentic experience of the region.
 
-## The visual
+## The visuals
 
 ![Visuals on all devices](https://github.com/Mimi1706/LaRetrouvade-website/blob/main/LaRetrouvade-visuals.png?raw=true)
 
