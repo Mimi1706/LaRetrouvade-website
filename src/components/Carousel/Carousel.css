@@ -1,0 +1,94 @@
+.carousel-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.carousel-wrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+}
+
+.carousel-content-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-content-large {
+  display: flex;
+  transition: all 250ms linear;
+  -ms-overflow-style: none; /* hide scrollbar in IE and Edge */
+  scrollbar-width: none; /* hide scrollbar in Firefox */
+}
+
+/* hide scrollbar in webkit browser */
+.carousel-content-large::-webkit-scrollbar,
+.carousel-content-large::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-content-large > * {
+  width: 25%;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.carousel-buttons {
+  cursor: pointer;
+  color: white;
+}
+
+.carousel-buttons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-buttons button:first-child {
+  position: absolute;
+  background-color: black;
+  border: none;
+  left: 0;
+  top: 45%;
+}
+
+.carousel-buttons button:last-child {
+  position: absolute;
+  background-color: black;
+  border: none;
+  right: 0;
+  top: 45%;
+}
+
+.carousel-content-small {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .carousel-content-large {
+    display: none;
+  }
+
+  .carousel-content-small > * {
+    width: 100%;
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+
+  .carousel-content-small {
+    display: flex;
+    transition: all 250ms linear;
+    -ms-overflow-style: none; /* hide scrollbar in IE and Edge */
+    scrollbar-width: none; /* hide scrollbar in Firefox */
+  }
+
+  /* hide scrollbar in webkit browser */
+  .carousel-content-small::-webkit-scrollbar,
+  .carousel-content-small::-webkit-scrollbar {
+    display: none;
+  }
+}
