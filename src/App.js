@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 
 import Header from "./components/Header/Header"
 
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
   return (
@@ -13,10 +13,6 @@ function App() {
         <Header />
         <Routes>
           <Route path="*" element={<Home />}></Route>
-          <Route
-            path="/LaRetrouvade-website/"
-            element={<Navigate to="/home" replace />}
-          />
         </Routes>
       </BrowserRouter>
     </div>
