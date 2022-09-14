@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LaRetrouvade-website/static/css/main.5bb7c0e3.css",
-    "main.js": "/LaRetrouvade-website/static/js/main.0db09ec5.js",
+    "main.js": "/LaRetrouvade-website/static/js/main.b688ac95.js",
     "static/media/cover.jpg": "/LaRetrouvade-website/static/media/cover.216de46f0c357031fd89.jpg",
     "static/media/logo_01.png": "/LaRetrouvade-website/static/media/logo_01.c2fb33e8eb6f3f4cabfc.png",
     "static/media/06.jpg": "/LaRetrouvade-website/static/media/06.b202ee5701fec633db3f.jpg",
@@ -25,10 +25,10 @@
     "static/media/arrowBottom.svg": "/LaRetrouvade-website/static/media/arrowBottom.431fe5bbbade696633fbd2764f221df8.svg",
     "static/media/arrowLeft.svg": "/LaRetrouvade-website/static/media/arrowLeft.0bad199787873b6cd9d0d9cb29f8c70c.svg",
     "main.5bb7c0e3.css.map": "/LaRetrouvade-website/static/css/main.5bb7c0e3.css.map",
-    "main.0db09ec5.js.map": "/LaRetrouvade-website/static/js/main.0db09ec5.js.map"
+    "main.b688ac95.js.map": "/LaRetrouvade-website/static/js/main.b688ac95.js.map"
   },
   "entrypoints": [
     "static/css/main.5bb7c0e3.css",
-    "static/js/main.0db09ec5.js"
+    "static/js/main.b688ac95.js"
   ]
 }
